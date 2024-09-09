@@ -1,0 +1,23 @@
+# Calculator
+
+A fundamental calculator built using HTML, CSS, and JavaScript.
+This project features a clean and interactive user interface with buttons for basic arithmetic operations like addition, subtraction, multiplication, and division.
+It utilizes the CSS Grid layout for structuring the buttons and leverages JavaScript for handling user inputs and performing calculations.
+
+## Features
+
+- User-friendly Interface: Clean design with an intuitive layout for easy use.
+- Basic Operations: Supports addition (+), subtraction (-), multiplication (×), and division (÷).
+- Real-time Display: Shows user inputs and calculation results on the screen.
+- Responsive Layout: CSS Grid is used to make the calculator responsive on different devices.
+- JavaScript Logic: Efficient handling of user inputs using event listeners, if-else statements, and loops for performing calculations.
+
+## Technologies Used
+
+- HTML: Structure of the calculator.
+- CSS: Styling and layout using CSS Grid.
+- JavaScript: Functionality for performing calculations and updating the display.
+
+## Functionalities
+
+- Event Listeners: Added event listeners like "click" and "keydown" for implementing the functionalities and perform action through clicking the button and also through typing, user can type specific number with arithmatic operator to perform the calculation
