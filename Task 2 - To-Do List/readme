@@ -1,1 +1,35 @@
+# To-Do List Application
 
+A simple and dynamic to-do list application built using HTML, CSS, and JavaScript.
+This project allows users to manage their daily tasks efficiently by adding, completing, and deleting tasks. 
+It features a user-friendly interface with real-time updates and smooth animations for task management.
+
+# Features
+
+-> User-Friendly Interface: Simple and clean design, making it easy to add, manage, and filter tasks.
+-> Task Management: Users can add tasks with titles and descriptions, mark tasks as complete, and delete tasks permanently.
+-> Task Filters: Filter tasks by their status (pending, completed, or deleted).
+-> Local Storage: Tasks are saved in the browser's local storage, ensuring that user data is not lost even after refreshing the page.
+-> Theme Toggle: Option to switch between light and dark themes for a personalized experience.
+-> Real-Time Display: Tasks are updated instantly on the screen as users interact with the interface.
+
+# Technologies Used
+
+HTML: Structure of the to-do list.
+CSS: Handles Styling.
+JavaScript: Handles task management, filtering, local storage, and theme toggling.
+
+# Functionalities
+
+Add Task: Users can add new tasks by entering a title and description.
+Mark as Complete: Tasks can be marked as complete, which moves them to the completed section with an animation.
+Delete Task: Users can delete tasks, either moving them to a deleted section or permanently removing them.
+Filter Tasks: Filter tasks based on their status (pending, completed, or deleted) using a dropdown menu.
+Theme Toggle: Switch between light and dark themes, with the theme choice saved locally.
+Local Storage: Tasks are stored in local storage, ensuring persistence even after the page is refreshed.
+
+How It Works
+Event Listeners: JavaScript event listeners like "click" and "change" are used to handle user inputs and trigger actions such as adding, completing, or deleting tasks.
+Animations: Task transitions like completing or deleting are animated using CSS, providing a smooth user experience.
+Task Persistence: The application uses local storage to persist tasks, ensuring that task data is retained between sessions.
+Theme Toggle: The theme toggle button allows switching between light and dark modes, with the preference stored locally.
