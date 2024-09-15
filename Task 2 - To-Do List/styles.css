@@ -1,0 +1,242 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+
+    background-color: #e886f7; 
+    position: relative;
+    padding: 20px;
+}
+
+
+.app-box {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 0.2%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;  
+    top: 20px;       
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;  
+    overflow-y: auto;   
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.ThemeBtn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+}
+
+
+.inputTask {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.taskTitle, .description {
+    width: 96%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.addBtn, .filter{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+
+
+.description {
+    height: 100px;
+    resize: none;
+}
+
+.addBtn {
+    background-color: #be2acc;
+    color: white;
+    cursor: pointer;
+}
+
+
+.addBtn:hover {
+    background-color: #b029bc;
+}
+
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;  
+}
+
+.task-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.task-list::-webkit-scrollbar-track {
+    background: #ccc;  
+}
+
+.task-list::-webkit-scrollbar-thumb {
+    background-color: #555; 
+    border-radius: 10px;
+}
+
+.task-list::-webkit-scrollbar-thumb:hover {
+    background-color: #333;  
+}
+
+
+body.dark-theme .task-list::-webkit-scrollbar-track {
+    background: #444;  
+}
+
+body.dark-theme .task-list::-webkit-scrollbar-thumb {
+    background-color: #777; 
+}
+
+body.dark-theme .task-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555;  
+}
+
+
+body.light-theme .task-list::-webkit-scrollbar-track {
+    background: #e0e0e0;  
+}
+
+body.light-theme .task-list::-webkit-scrollbar-thumb {
+    background-color: #aaa;  
+}
+
+body.light-theme .task-list::-webkit-scrollbar-thumb:hover {
+    background-color: #888;  
+}
+
+body.light-theme {
+    background-color: #e886f7;  
+    color: #000; 
+}
+
+
+body.dark-theme {
+    background-color: #333; 
+    color: white;
+}
+
+
+body.dark-theme .addBtn {
+    background-color: #ffd700; 
+    color: black; 
+}
+
+body.dark-theme .addBtn:hover {
+    background-color: #e6c200; 
+}
+
+
+
+body.light-theme .ThemeBtn .fas.fa-sun {
+    color: #000; 
+}
+
+
+body.dark-theme .ThemeBtn .fas.fa-moon {
+    color: #fff;
+}
+
+.ThemeBtn:hover .fa-sun,
+.ThemeBtn:hover .fa-moon {
+    color: #ffcc00 
+}
+
+body.dark-theme .app-box{
+    
+    background-color: #333;
+}
+
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.complete-icon  {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #28a745;
+}
+
+.delete-icon{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #dc3545;
+}
+
+.complete-icon:hover {
+    color: #25933f;
+}
+
+.delete-icon:hover {
+    color: #bc313f;
+}
+
+
