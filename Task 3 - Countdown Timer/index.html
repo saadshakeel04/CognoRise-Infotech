@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improved Countdown Timer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="TimerBody">
+        <div class="DisplayTime">
+            <span id="days">00</span>:
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+        </div>
+        <input type="text" id="countdown" class="countdown-input" placeholder="Select date and time">
+        <div class="ContainerBtn">
+            <button id="start-btn">
+                Start
+            </button>
+            <button id="pause-btn">
+                Pause
+            </button>
+            <button id="reset-btn">
+                Reset
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
